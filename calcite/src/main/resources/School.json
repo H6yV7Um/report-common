@@ -1,0 +1,15 @@
+{
+  version: '1.0',
+  defaultSchema: 'school',
+  schemas: [
+    {      
+      type: 'custom',
+      name: 'school',
+      factory: 'com.sm.report.calcite.rpc.RpcSchemaFactory',
+      operand: {
+        param1: 'hello',
+        param2: 'world'
+      }
+    }
+  ]
+}
